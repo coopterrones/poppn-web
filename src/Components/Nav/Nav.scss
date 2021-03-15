@@ -3,6 +3,19 @@
   flex-direction: row;
   justify-content: space-around;
   height: 10vh;
-  margin-top: 2.5vh;
+  margin-top: 5vh;
   width: 50vw;
+}
+
+.nav-item-link {
+  height: fit-content;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item-link-active {
+  height: fit-content;
+  width: fit-content;
+  border-bottom: solid 2px #884ADD;
 }

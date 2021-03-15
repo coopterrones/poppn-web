@@ -1,23 +1,38 @@
 import React from "react";
-import NavItem from "../NavItem/index";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 
 const Nav = () => {
   return (
     <section className="nav-container">
-      <Link to="/">
-        <NavItem itemName="Home" />
-      </Link>
-      <Link to="/features">
-        <NavItem itemName="Features" />
-      </Link>
-      <Link to="/about-us">
-        <NavItem itemName="About Us" />
-      </Link>
-      <Link to="/contact">
-        <NavItem itemName="Contact" />
-      </Link>
+      <NavLink
+        exact
+        to="/"
+        className="nav-item-link"
+        activeClassName="nav-item-link-active">
+        Home
+      </NavLink>
+      <NavLink
+        exact
+        to="/features"
+        className="nav-item-link"
+        activeClassName="nav-item-link-active">
+        Features
+      </NavLink>
+      <NavLink
+        exact
+        to="/about-us"
+        className="nav-item-link"
+        activeClassName="nav-item-link-active">
+        About Us
+      </NavLink>
+      <NavLink
+        exact
+        to="/contact"
+        className="nav-item-link"
+        activeClassName="nav-item-link-active">
+        Contact
+      </NavLink>
     </section>
   );
 };
