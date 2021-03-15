@@ -5,7 +5,7 @@ import "./Logo.scss";
 const Logo = () => {
   return (
     <Link to="/" className="logo-link-container">
-      Poppn.
+      poppn.
     </Link>
   );
 };
