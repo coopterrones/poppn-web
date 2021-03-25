@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 import Logo from "../Logo/index";
+import LearnMore from "../LearnMore";
 
 const Nav = () => {
   return (
@@ -19,17 +20,10 @@ const Nav = () => {
         </NavLink>
         <NavLink
           exact
-          to="/features"
+          to="/integration"
           className="nav-item-link"
           activeClassName="nav-item-link-active">
-          Features
-        </NavLink>
-        <NavLink
-          exact
-          to="/about-us"
-          className="nav-item-link"
-          activeClassName="nav-item-link-active">
-          About Us
+          Integration
         </NavLink>
         <NavLink
           exact
@@ -38,6 +32,9 @@ const Nav = () => {
           activeClassName="nav-item-link-active">
           Contact
         </NavLink>
+      </div>
+      <div className="learn-more-button-container">
+        <LearnMore />
       </div>
     </section>
   );

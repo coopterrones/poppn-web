@@ -24,7 +24,17 @@
   align-items: center;
   height: 10vh;
   margin-top: 2.5vh;
-  width: 50vw;
+  width: 35vw;
+}
+.learn-more-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 5vw;
+  height: 10vh;
+  margin-top: 2.5vh;
+  font-size: large;
 }
 
 .nav-item-link {
@@ -37,5 +47,5 @@
 .nav-item-link-active {
   height: fit-content;
   width: fit-content;
-  border-bottom: solid 2px #884ADD;
+  border-bottom: solid 2px #3e1cda;
 }
