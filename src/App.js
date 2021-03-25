@@ -7,12 +7,24 @@ import Announcement from "./Components/Announcement";
 function App() {
   return (
     <section className="app">
-      <section className="nav-section">
-        <Nav />
-      </section>
-      <section className="main-container">
-        <Announcement />
-      </section>
+      <Route exact path="/">
+        <section className="nav-section">
+          <Nav />
+        </section>
+        <section className="main-container">
+          <Announcement />
+        </section>
+      </Route>
+      <Route exact path="/integration">
+        <section className="nav-section">
+          <Nav />
+        </section>
+      </Route>
+      <Route exact path="/contact">
+        <section className="nav-section">
+          <Nav />
+        </section>
+      </Route>
     </section>
   );
 }
