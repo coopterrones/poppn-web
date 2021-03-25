@@ -5,10 +5,11 @@ import { Route } from "react-router-dom";
 
 function App() {
   return (
-    <section className="App">
+    <section className="app">
       <section className="nav-section">
         <Nav />
       </section>
+      <section className="main-container"></section>
     </section>
   );
 }
