@@ -2,6 +2,7 @@ import "./App.scss";
 import Nav from "./Components/Nav/index";
 import React from "react";
 import { Route } from "react-router-dom";
+import Announcement from "./Components/Announcement";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <section className="nav-section">
         <Nav />
       </section>
-      <section className="main-container"></section>
+      <section className="main-container">
+        <Announcement />
+      </section>
     </section>
   );
 }
