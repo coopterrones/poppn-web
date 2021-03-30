@@ -1,0 +1,18 @@
+.app {
+  width: 100%;
+  height: 2000vh;
+  background-image: linear-gradient(#090020, #060016, #050011);
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
