@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 import Logo from "../Logo/index";
-import LearnMore from "../LearnMore";
+import Button from "../Button";
 
 const Nav = () => {
   return (
@@ -34,7 +34,7 @@ const Nav = () => {
         </NavLink>
       </div>
       <div className="learn-more-button-container">
-        <LearnMore />
+        <Button label="Learn More" path="/learn-more" />
       </div>
     </section>
   );
