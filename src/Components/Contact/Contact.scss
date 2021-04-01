@@ -1,0 +1,33 @@
+.contact-form-background {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form-container {
+  height: 50%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 25%;
+}
+
+.name-input {
+}
+
+.email-input {
+}
+
+.message-text-area {
+}

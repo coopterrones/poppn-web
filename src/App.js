@@ -12,6 +12,7 @@ import browseScreen from "./Assets/browse-placeholder.png";
 import orderScreen from "./Assets/order-placeholder.png";
 import splitScreen from "./Assets/split-screen.png";
 import payAloneScreen from "./Assets/pay-alone-screen.png";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -69,6 +70,9 @@ function App() {
       <Route exact path="/contact">
         <section className="nav-section">
           <Nav />
+        </section>
+        <section className="main-container-contact">
+          <Contact />
         </section>
       </Route>
     </section>
