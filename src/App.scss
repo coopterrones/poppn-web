@@ -1,6 +1,5 @@
 .app {
   width: 100%;
-  height: 2000vh;
   background-image: linear-gradient(#090020, #060016, #050011);
 }
 .nav-section {
@@ -13,6 +12,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
+  height: 1500vh;
+}
+
+.main-container-contact {
+  height: 87.5vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
