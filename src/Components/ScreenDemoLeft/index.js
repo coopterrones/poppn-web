@@ -8,7 +8,7 @@ const ScreenDemoLeft = ({ header, contents, image, position }) => {
       style={{ top: `${position}` }}>
       <div className="screen-demo-image-container">
         <div className="screen-outline">
-          <img src={image} height="750px" />
+          <img src={image} height="500px" />
         </div>
       </div>
       <div className="screen-demo-contents-container-left">
