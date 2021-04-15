@@ -12,7 +12,7 @@ const ScreenDemo = ({ header, contents, image, position }) => {
       </div>
       <div className="screen-demo-image-container">
         <div className="screen-outline">
-          <img src={image} height="750px" />
+          <img src={image} height="500px" />
         </div>
       </div>
     </section>

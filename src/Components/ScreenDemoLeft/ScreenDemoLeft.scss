@@ -1,5 +1,5 @@
 .screen-demo-section-left {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,6 +7,7 @@
   height: fit-content;
   width: 65vw;
   color: white;
+  margin: 3.5rem;
 }
 
 .screen-demo-contents-container-left {
