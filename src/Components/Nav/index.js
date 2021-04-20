@@ -20,7 +20,7 @@ const Nav = () => {
   return (
     <section className={navBar ? "nav-container active" : "nav-container"}>
       <div className="logo-nav-container">
-        <Logo active={navBar} />
+        <Logo />
       </div>
       <div className="nav-links-container">
         <NavLink
