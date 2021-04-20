@@ -1,9 +1,22 @@
 .nav-container {
+  position: sticky;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100vw;
   justify-content: center;
+}
+
+.nav-container.active {
+  transition: 250ms linear;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+  background-color: white;
+  color: black;
 }
 
 .logo-nav-container {
@@ -12,8 +25,8 @@
   align-items: center;
   position: absolute;
   left: 5vw;
-  height: 10vh;
-  margin-top: 2.5vh;
+  height: 7.5vh;
+  margin: 2.5vh;
   font-size: large;
 }
 
@@ -22,8 +35,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
-  margin-top: 2.5vh;
+  height: 7.5vh;
+  margin: 2.5vh;
   width: 35vw;
 }
 .learn-more-button-container {
@@ -32,8 +45,8 @@
   align-items: center;
   position: absolute;
   right: 5vw;
-  height: 10vh;
-  margin-top: 2.5vh;
+  height: 7.5vh;
+  margin: 2.5vh;
   font-size: large;
 }
 
@@ -42,6 +55,13 @@
   width: fit-content;
   text-decoration: none;
   color: white;
+}
+
+.nav-item-link.active {
+  height: fit-content;
+  width: fit-content;
+  text-decoration: none;
+  color: black;
 }
 
 .nav-item-link-active {
