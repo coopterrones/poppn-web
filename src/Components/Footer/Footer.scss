@@ -1,6 +1,30 @@
 .footer-wrapper {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  
+  height: 50vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5% 5%;
+}
+
+.footer-headline,
+.footer-headline-2 {
+  height: fit-content;
+  width: fit-content;
+  color: white;
+}
+
+.footer-descriptor {
+  color: white;
+  height: fit-content;
+  width: fit-content;
+  margin: none;
+}
+
+.footer-copy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+  width: 65%;
 }
