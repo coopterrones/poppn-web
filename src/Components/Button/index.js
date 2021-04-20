@@ -4,8 +4,8 @@ import "./Button.scss";
 
 const Button = ({ label, path }) => {
   return (
-    <div className="learn-more-button">
-      <Link to={path} className="learn-more-button-link">
+    <div className="button-standard">
+      <Link to={path} className="button-standard-link">
         {label}
       </Link>
     </div>

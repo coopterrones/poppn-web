@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import "./FooterSubscribe.scss";
 
 const FooterSubscribe = () => {
   const sendEmail = (e) => {
@@ -8,7 +9,7 @@ const FooterSubscribe = () => {
     emailjs
       .sendForm(
         "service_y5uowpq",
-        "contact_form_poppn",
+        "footer_contact_form",
         e.target,
         "user_GbsaZ6vJmwL5nZ3CuaYrO"
       )
@@ -24,11 +25,11 @@ const FooterSubscribe = () => {
   return (
     <div className="footer-form-container">
       <form className="footer-form" onSubmit={sendEmail}>
-        <label className="footer-email-label" htmlFor="user_email">
-          Email
-        </label>
+        <label>Email</label>
         <input type="email" name="user_email" className="footer-email-input" />
-        <input type="submit" value="Send" className="footer-submit-button" />
+        <label>Message</label>
+        <textarea name="message" className="footer-message-area" />
+        <input type="submit" value="Send" className="footer-message-submit" />
       </form>
     </div>
   );

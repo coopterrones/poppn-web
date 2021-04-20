@@ -1,0 +1,52 @@
+.footer-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 25vh;
+  width: 50vw;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+  width: 45%;
+}
+
+.footer-email-input {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid white;
+  height: 1.5rem;
+  border-radius: 2.5px;
+  color: white;
+  font-family: poppins;
+}
+
+.footer-message-area {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 2.5px;
+  height: 6rem;
+  color: white;
+  font-family: poppins;
+}
+
+.footer-message-submit {
+  background-color: #3e1cda;
+  color: white;
+  height: 2.5rem;
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2.5px;
+  margin: 1.5rem 0;
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 import Logo from "../Logo/index";
 import Button from "../Button";
 
 const Nav = () => {
+  const [navBar, setNavBar] = useState(false);
+
+  const updateBackground = () => {
+    if (window.scrollY >= 50) {
+      setNavBar(true);
+    } else {
+      setNavBar(false);
+    }
+  };
+
+  window.addEventListener("scroll", updateBackground);
+
   return (
-    <section className="nav-container">
+    <section className={navBar ? "nav-container active" : "nav-container"}>
       <div className="logo-nav-container">
         <Logo />
       </div>
@@ -14,21 +26,21 @@ const Nav = () => {
         <NavLink
           exact
           to="/"
-          className="nav-item-link"
+          className={navBar ? "nav-item-link active" : "nav-item-link"}
           activeClassName="nav-item-link-active">
           Home
         </NavLink>
         <NavLink
           exact
           to="/integration"
-          className="nav-item-link"
+          className={navBar ? "nav-item-link active" : "nav-item-link"}
           activeClassName="nav-item-link-active">
           Integration
         </NavLink>
         <NavLink
           exact
           to="/contact"
-          className="nav-item-link"
+          className={navBar ? "nav-item-link active" : "nav-item-link"}
           activeClassName="nav-item-link-active">
           Contact
         </NavLink>
