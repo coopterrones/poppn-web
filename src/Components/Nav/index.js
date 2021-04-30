@@ -22,29 +22,7 @@ const Nav = () => {
       <div className="logo-nav-container">
         <Logo />
       </div>
-      <div className="nav-links-container">
-        <NavLink
-          exact
-          to="/"
-          className={navBar ? "nav-item-link active" : "nav-item-link"}
-          activeClassName="nav-item-link-active">
-          Home
-        </NavLink>
-        <NavLink
-          exact
-          to="/integration"
-          className={navBar ? "nav-item-link active" : "nav-item-link"}
-          activeClassName="nav-item-link-active">
-          Integration
-        </NavLink>
-        <NavLink
-          exact
-          to="/contact"
-          className={navBar ? "nav-item-link active" : "nav-item-link"}
-          activeClassName="nav-item-link-active">
-          Contact
-        </NavLink>
-      </div>
+      <div className="nav-links-container"></div>
       <div className="learn-more-button-container">
         <Button label="Learn More" path="/learn-more" />
       </div>
