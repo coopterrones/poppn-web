@@ -9,9 +9,9 @@ const Descriptive = () => {
       </h2>
       <p className="descriptive-text">
         Poppn enables users to easily pay for the tab at any of their favorite
-        bars. Order ahead, order as you move through your night, split the tab
-        with your party, done. Take your night to the next level of convenience
-        with the Poppn Payment App. Drink Responsibly.
+        bars. Order from your phone. Keep track of your tab. Pay your tab. Done.
+        Take your experience to the next level of convenience with the Poppn
+        Payment App.
       </p>
     </div>
   );

@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 import Announcement from "./Components/Announcement";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Descriptive from "./Components/Descriptive";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <section className="main-container">
             <div className="openning-container">
               <Announcement />
+              <Descriptive />
             </div>
             <section className="footer-container">
               <Footer />
